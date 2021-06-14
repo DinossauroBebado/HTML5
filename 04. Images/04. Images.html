@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Imagens</title>
+  </head>
+  <body>
+
+    <!-- <img> Defines an Image -->
+    <img src="capivara.jpeg" alt="capivara" usemap="#mymap">
+
+    <!--<map> Defines a client-side image map -->
+    <map name="mymap">
+        <area shape="default" coords="10,10" href="capivara.jpeg" alt="capivara ">
+    </map>
+
+    <!-- <area> Defines an area inside an image map -->
+    <area shape="default" coords="" href="#" alt="">
+
+    <!--<canvas> Used to draw graphics, on the fly, via scripting (JavaScript)-->
+      <canvas id="canvas" width="300" height="300"></canvas>
+
+    <!--<<figcaption > fines a caption for a <figure> element -->
+    <figcaption>Legenda da figura </figcaption>
+
+    <!--<figure>  Specifies self-contained content -->
+      <figure>
+        <img src="capivara.jpeg" alt="capivara" usemap="#mymap">
+        <figcaption>Legenda da figura </figcaption>
+      </figure>
+
+    <!--<picture>  Defines a container for multiple image resources -->
+      <picture>
+        <!-- dar prefeerncia ao CSS -->
+      </picture>
+
+    <!-- <svg>  Defines a container for SVG graphics -->
+    <svg>
+
+    </svg>
+
+  </body>
+</html>
